@@ -20,6 +20,8 @@ Setelah klik button + pada tampilan awal, selanjutnya akan tampil halaman untuk 
 User dapat memilih tanaman mana yang ingin di tanam.
 ```
 ![Screenshot_2020-09-04-19-03-56-80_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92240725-4aeb1d80-eee7-11ea-9a6b-d04cd262ab07.png)
+##### ***Tampilan Setelah Menambahkan Tanaman***
+![Screenshot_2020-09-04-19-04-14-65_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92247159-03698f00-eef1-11ea-84db-b55142c9b865.png)
 ##### ***Menambahkan Widget My Garden***
 ```
 Tambahkan widget aplikasi My Garden pada layar dekstop handphone. Maka tampilan awalnya akan seperti ini.
@@ -33,6 +35,11 @@ Jika user memperbesar ukuran widget hingga memenuhi layar dekstop handphone, mak
 yang user tanam pada aplikasi My Garden.
 ```
 ![Screenshot_2020-09-04-19-28-50-38](https://user-images.githubusercontent.com/60590053/92240779-5d655700-eee7-11ea-8e35-b3b6bdf24a27.png)
+```
+Ketika user klik setiap tanaman pada widget layar dekstop, akan langsung mengarahkan user pada halaman
+dimana user dapat menyiram tanamannya. Setiap widget tanaman memiliki halaman menyiram yang berbeda sesuai
+dengan ID tanaman tersebut.
+```
 ![Screenshot_2020-09-04-19-24-46-35_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92240750-55a5b280-eee7-11ea-8354-b2620cc2aead.png)
 ![Screenshot_2020-09-04-19-24-57-26_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92240769-59d1d000-eee7-11ea-8dee-6ca82701591d.png)
 
