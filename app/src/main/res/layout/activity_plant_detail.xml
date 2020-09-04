@@ -10,6 +10,7 @@
 
     <RelativeLayout
         android:id="@+id/plant_age"
+        android:paddingTop="250dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="parent"
@@ -36,6 +37,7 @@
         android:id="@+id/water_meter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="250dp"
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/plant_age"
         app:layout_constraintRight_toRightOf="parent"
