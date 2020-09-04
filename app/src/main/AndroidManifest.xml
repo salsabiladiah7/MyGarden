@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.salsabila.mywidgetapp">
 
     <application
@@ -9,18 +10,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.WaterLevelView" />
-        <activity android:name=".ui.PlantTypesAdapter" />
-        <activity android:name=".ui.PlantListAdapter" />
-        <activity android:name=".ui.PlantDetailActivity" />
-        <activity android:name=".ui.AddPlantActivity" />
-        <activity android:name=".MainActivity">
+
+        <activity
+            android:name=".GridWidgetService"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".PlantWateringService"
+            tools:ignore="Instantiatable" />
+
+        <receiver android:name=".PlantWidgetPovider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/plant_widget_povider_info" />
+        </receiver>
+
+        <service android:name=".PlantWateringService" />
+        <service
+            android:name=".GridWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <provider
+            android:name=".provider.PlantContentProvider"
+            android:authorities="com.salsabila.mywidgetapp"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/title_activity_my_garden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.PlantDetailActivity"
+            android:label="@string/title_activity_plant_detail" />
+        <activity
+            android:name=".ui.AddPlantActivity"
+            android:label="@string/title_activity_add_plant" />
     </application>
 
 </manifest>

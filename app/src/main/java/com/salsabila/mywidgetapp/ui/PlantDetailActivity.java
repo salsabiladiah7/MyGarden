@@ -14,6 +14,7 @@ import androidx.loader.app.LoaderManager;
 import androidx.loader.content.CursorLoader;
 import androidx.loader.content.Loader;
 
+import com.salsabila.mywidgetapp.PlantWateringService;
 import com.salsabila.mywidgetapp.R;
 import com.salsabila.mywidgetapp.provider.PlantContract;
 import com.salsabila.mywidgetapp.utils.PlantUtils;
@@ -36,6 +37,7 @@ public class PlantDetailActivity extends AppCompatActivity implements LoaderMana
     }
 
     public void onBackButtonClick(View view) {
+
         finish();
     }
 
@@ -55,6 +57,7 @@ public class PlantDetailActivity extends AppCompatActivity implements LoaderMana
         contentValues.put(PlantContract.PlantEntry.COLUMN_LAST_WATERED_TIME, timeNow);
         getContentResolver().update(SINGLE_PLANT_URI, contentValues, null, null);
         cursor.close();
+        PlantWateringService.startActionUpdatePlantWidgets(this);
     }
 
     @Override
@@ -107,6 +110,7 @@ public class PlantDetailActivity extends AppCompatActivity implements LoaderMana
         Uri SINGLE_PLANT_URI = ContentUris.withAppendedId(
                 BASE_CONTENT_URI.buildUpon().appendPath(PATH_PLANTS).build(), mPlantId);
         getContentResolver().delete(SINGLE_PLANT_URI, null, null);
+        PlantWateringService.startActionUpdatePlantWidgets(this);
         finish();
     }
 }

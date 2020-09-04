@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.salsabila.mywidgetapp.PlantWateringService;
 import com.salsabila.mywidgetapp.R;
 import com.salsabila.mywidgetapp.provider.PlantContract;
 
@@ -22,7 +23,7 @@ public class AddPlantActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_plant);
 
         mTypesAdapter = new PlantTypesAdapter(this);
-        mTypesRecyclerView = (RecyclerView) findViewById(R.id.plant_types_recycler_view);
+        mTypesRecyclerView = findViewById(R.id.plant_types_recycler_view);
         mTypesRecyclerView.setLayoutManager(
                 new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         );
@@ -31,7 +32,7 @@ public class AddPlantActivity extends AppCompatActivity {
     }
 
     public void onPlantTypeClick(View view) {
-        ImageView imgView = (ImageView) view.findViewById(R.id.plant_type_image);
+        ImageView imgView = view.findViewById(R.id.plant_type_image);
         int plantType = (int) imgView.getTag();
         long timeNow = System.currentTimeMillis();
 
@@ -40,6 +41,7 @@ public class AddPlantActivity extends AppCompatActivity {
         contentValues.put(PlantContract.PlantEntry.COLUMN_CREATION_TIME, timeNow);
         contentValues.put(PlantContract.PlantEntry.COLUMN_LAST_WATERED_TIME, timeNow);
         getContentResolver().insert(PlantContract.PlantEntry.CONTENT_URI, contentValues);
+        PlantWateringService.startActionUpdatePlantWidgets(this);
         finish();
     }
 
