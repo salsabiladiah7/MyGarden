@@ -1,7 +1,8 @@
 # ***ATTENTION!***
 ```
 Project ini berdasarkan hasil pembelajaran dari udacity.com. Namun, karena versi android studio pada udacity
-berbeda dengan versi android studio yang terbaru. Diperlukan revisi untuk menyesuaikan dengan versi terbaru.
+berbeda dengan versi android studio yang terbaru. Diperlukan beberapa revisi untuk menyesuaikan dengan
+versi terbarunya.
 ```
 [Udacity Pelajaran 7: Widget](https://classroom.udacity.com/courses/ud855/lessons/f133dd92-8e3c-40b9-9d9d-545498638459/concepts/98627458-72ac-45a0-94ff-bca60428ccfc)
 
