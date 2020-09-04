@@ -3,7 +3,7 @@
 Widget adalah aspek penting dari penyesuaian layar utama. Anda dapat melihatnya sebagai tampilan "sekilas" dari data dan fungsi
 paling penting aplikasi yang dapat diakses langsung dari layar utama pengguna.
 Pengguna dapat memindahkan widget ke seluruh panel layar utama, dan jika didukung, mengubah ukurannya untuk menyesuaikan jumlah
-informasi di dalam widget sesuai keinginan.
+informasi di dalam widget sesuai keinginan. [Lihat Lebih...](https://developer.android.com/guide/topics/appwidgets/overview?hl=id)
 ```
 
 ![Screenshot_2020-09-04-19-03-53-18_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92240719-4888c380-eee7-11ea-9d84-4ee7231b4b89.png)
