@@ -26,9 +26,14 @@ Tambahkan widget aplikasi My Garden pada layar dekstop handphone. Maka tampilan 
 ```
 ![Screenshot_2020-09-04-19-31-05-86](https://user-images.githubusercontent.com/60590053/92240787-5fc7b100-eee7-11ea-8cea-16428a39fbf1.png)
 ![Screenshot_2020-09-04-19-05-03-65](https://user-images.githubusercontent.com/60590053/92240737-50486800-eee7-11ea-8a50-9be9c11626dd.png)
-
 ![Screenshot_2020-09-04-19-24-28-54](https://user-images.githubusercontent.com/60590053/92240740-52aac200-eee7-11ea-8c81-8c6f324e38e3.png)
+##### ***Menampilkan Semua Tanaman***
+```
+Jika user memperbesar ukuran widget hingga memenuhi layar dekstop handphone, maka akan tampil semua tanaman
+yang user tanam pada aplikasi My Garden.
+```
+![Screenshot_2020-09-04-19-28-50-38](https://user-images.githubusercontent.com/60590053/92240779-5d655700-eee7-11ea-8e35-b3b6bdf24a27.png)
 ![Screenshot_2020-09-04-19-24-46-35_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92240750-55a5b280-eee7-11ea-8354-b2620cc2aead.png)
 ![Screenshot_2020-09-04-19-24-57-26_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92240769-59d1d000-eee7-11ea-8dee-6ca82701591d.png)
-![Screenshot_2020-09-04-19-28-50-38](https://user-images.githubusercontent.com/60590053/92240779-5d655700-eee7-11ea-8e35-b3b6bdf24a27.png)
+
 
