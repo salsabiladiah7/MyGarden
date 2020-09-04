@@ -65,10 +65,6 @@ public class PlantWateringService extends IntentService {
         startActionUpdatePlantWidgets(this);
     }
 
-
-    /**
-     * Handle action UpdatePlantWidgets in the provided background thread
-     */
     private void handleActionUpdatePlantWidgets() {
         Uri PLANT_URI = BASE_CONTENT_URI.buildUpon().appendPath(PATH_PLANTS).build();
         Cursor cursor = getContentResolver().query(

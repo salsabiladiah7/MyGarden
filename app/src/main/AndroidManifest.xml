@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.salsabila.mywidgetapp">
 
     <application
@@ -11,12 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity
-            android:name=".GridWidgetService"
-            tools:ignore="Instantiatable" />
-        <activity
-            android:name=".PlantWateringService"
-            tools:ignore="Instantiatable" />
+        <activity android:name=".GridWidgetService" />
+        <activity android:name=".PlantWateringService" />
 
         <receiver android:name=".PlantWidgetPovider">
             <intent-filter>

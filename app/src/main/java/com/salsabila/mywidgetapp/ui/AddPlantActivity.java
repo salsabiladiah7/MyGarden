@@ -46,6 +46,7 @@ public class AddPlantActivity extends AppCompatActivity {
     }
 
     public void onBackButtonClick(View view) {
+
         finish();
     }
 }

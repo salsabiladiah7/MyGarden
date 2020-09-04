@@ -6,7 +6,7 @@ import android.provider.BaseColumns;
 
 public class PlantContract {
 
-    public static final String AUTHORITY = "com.example.android.mygarden";
+    public static final String AUTHORITY = "com.salsabila.mywidgetapp";
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + AUTHORITY);
     public static final String PATH_PLANTS = "plants";
     public static final long INVALID_PLANT_ID = -1;
