@@ -43,4 +43,10 @@ dengan ID tanaman tersebut.
 ![Screenshot_2020-09-04-19-24-46-35_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92240750-55a5b280-eee7-11ea-8354-b2620cc2aead.png)
 ![Screenshot_2020-09-04-19-24-57-26_4a2972cce6d3c3ccb7bdc9e207ea0869](https://user-images.githubusercontent.com/60590053/92240769-59d1d000-eee7-11ea-8dee-6ca82701591d.png)
 
+# ***Sumber***
+```
+Project ini berdasarkan hasil pembelajaran dari udacity.com. Namun, karena versi android studio pada udacity
+berbeda dengan versi android studio yang terbaru. Diperlukan revisi untuk menyesuaikan dengan versi terbaru.
+```
+[Udacity Pelajaran 7: Widget](https://classroom.udacity.com/courses/ud855/lessons/f133dd92-8e3c-40b9-9d9d-545498638459/concepts/98627458-72ac-45a0-94ff-bca60428ccfc)
 
